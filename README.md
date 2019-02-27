@@ -60,7 +60,7 @@
 - 關掉 [Windows Telemetry](https://www.neweggbusiness.com/smartbuyer/windows/should-you-disable-windows-10-telemetry/)
 	- [O&O ShutUp10](https://www.oo-software.com/en/shutup10)
 - 關掉 [Windows Defender](https://www.windowscentral.com/how-permanently-disable-windows-defender-windows-10)
-	- **<span style="color: red">除非你知道自己在做什麼，也知道為什麼要關掉 Windows Defender，不然不建議這麼做。</span>**
+	- **<span style="color: red">⚠️⚠️⚠️ 除非你知道自己在做什麼，也知道為什麼要關掉 Windows Defender，不然不建議這麼做。</span>**
 	- MsMpEng 真的吃掉太多資源，也造成執行程式的卡頓，WSL 效能低落，i7 變 i3 不誇張
 - 關掉 [索引服務](https://www.online-tech-tips.com/computer-tips/simple-ways-to-increase-your-computers-performace-turn-off-indexing-on-your-local-drives/)
 	- Everything 不管是建立索引還是搜尋速度都完勝，也不會一直吃效能
