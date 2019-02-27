@@ -33,7 +33,7 @@
 - 支援 cmd / PowerShell / WSL / cygwin
 - 懶得設定 Cmder 的話可以用 [wsltty](https://github.com/mintty/wsltty)
 
-### [scoop]()
+### [scoop](https://scoop.sh/)
 
 - 以前用 [Chocolatey](https://chocolatey.org/) 經驗不好
 	- 但是 scoop 上面的套件比較少
