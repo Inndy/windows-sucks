@@ -4,12 +4,16 @@
 變成了 Windows。作為一個平常工作大量依賴鍵盤與 Commandline 的人， 一定要想辦法打造一個
 舒適的工作環境，想辦法活下去！
 
+如果你覺得有什麼更好用的競品，或是覺得很實用的軟體都歡迎開 issue 提供、討論。
+
 ## 實用工具
 
 ### [Wox](http://www.wox.one/)
 
 - 把 Spotlight 帶到 Windows 上！
 - 把預設的 HotKey 改成 Ctrl-Alt-Space，因為 Alt-Space 去移動、縮放視窗很好用
+
+> TODO: 附上 Wox 設定檔
 
 ### [ShareX](https://getsharex.com/)
 
@@ -35,12 +39,16 @@
 - 支援 cmd / PowerShell / WSL / cygwin
 - 懶得設定 Cmder 的話可以用 [wsltty](https://github.com/mintty/wsltty)
 
+> TODO: 附上 Cmder 設定檔
+
 ### [scoop](https://scoop.sh/)
 
 - 以前用 [Chocolatey](https://chocolatey.org/) 經驗不好
 	- 但是 scoop 上面的套件比較少
 - 看到有人推薦 [OneGet](https://github.com/OneGet/oneget)，但是我沒用過
 - 類似 `brew` 的做法，會把 Windows 軟體包直接拆開，裝在 `%UserProfile%\scoop` 底下
+
+> TODO: 附上 scoop 套件列表
 
 ## Windows Subsystem Linux
 
