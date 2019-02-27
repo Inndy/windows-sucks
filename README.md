@@ -11,9 +11,11 @@
 - 把 Spotlight 帶到 Windows 上！
 - 把預設的 HotKey 改成 Ctrl-Alt-Space，因為 Alt-Space 去移動、縮放視窗很好用
 
-### [LightShot](https://app.prntscr.com/)
+### [ShareX](https://getsharex.com/)
 
 - Windows 內建的 PrtScrn 有夠爛，這工具用起來就像 Mac 的截圖 Command-Shift-3
+- 其他競品
+	- [LightShot](https://app.prntscr.com/)
 
 ### [Everything](https://www.voidtools.com/)
 
