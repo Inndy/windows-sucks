@@ -38,8 +38,17 @@
 - Windows 最強 Terminal Emulator
 - 支援 cmd / PowerShell / WSL / cygwin
 - 懶得設定 Cmder 的話可以用 [wsltty](https://github.com/mintty/wsltty)
+- [Cmder 設定檔](cmder_config.xml)
 
-> TODO: 附上 Cmder 設定檔
+#### HotKey
+
+| 按鍵          | 說明                       |
+| :------------ | :------------------------- |
+| Ctrl-PageUp   | 上一個分頁                 |
+| Ctrl-PageDown | 上一個分頁                 |
+| Ctrl-T        | 新的分頁 (WSL)             |
+| Ctrl-Shift-T  | 新的分頁 (PowerShell)      |
+| Ctrl-Alt-M    | 開啟 / 隱藏 Cmder （全域） |
 
 ### [scoop](https://scoop.sh/)
 
