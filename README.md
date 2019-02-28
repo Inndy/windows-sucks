@@ -56,8 +56,8 @@
 	- 但是 scoop 上面的套件比較少
 - 看到有人推薦 [OneGet](https://github.com/OneGet/oneget)，但是我沒用過
 - 類似 `brew` 的做法，會把 Windows 軟體包直接拆開，裝在 `%UserProfile%\scoop` 底下
-
-> TODO: 附上 scoop 套件列表
+- `scoop install aria2; scoop config aria2-enabled true`
+- `scoop install ag busybox fd file git gzip jq less ln neovim psutils shasum sqlite sudo tar touch which xz`
 
 ## Windows Subsystem Linux
 
