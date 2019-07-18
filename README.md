@@ -72,10 +72,6 @@
 - 除非你用 [Arch Linux](https://www.archlinux.org/)，不然 brew 的套件版本一定比較新
 - `brew install nvim tmux`
 
-### [剪貼簿歷程](https://support.microsoft.com/zh-tw/help/4464215/windows-10-get-help-with-clipboard)
-
-- Windows 10 新增的剪貼簿歷史紀錄功能
-
 ## Windows 系統調整
 
 - 關掉 [Windows Telemetry](https://www.neweggbusiness.com/smartbuyer/windows/should-you-disable-windows-10-telemetry/)
@@ -87,3 +83,9 @@
 	- MsMpEng 真的吃掉太多資源，也造成執行程式的卡頓，WSL 效能低落，i7 變 i3 不誇張
 - 關掉 [索引服務](https://www.online-tech-tips.com/computer-tips/simple-ways-to-increase-your-computers-performace-turn-off-indexing-on-your-local-drives/)
 	- Everything 不管是建立索引還是搜尋速度都完勝，也不會一直吃效能
+
+## Misc
+
+### [剪貼簿歷程](https://support.microsoft.com/zh-tw/help/4464215/windows-10-get-help-with-clipboard)
+
+- Windows 10 新增的剪貼簿歷史紀錄功能
