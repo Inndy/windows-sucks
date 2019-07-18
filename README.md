@@ -59,6 +59,10 @@
 - `scoop install aria2; scoop config aria2-enabled true`
 - `scoop install ag busybox fd file git gzip jq less ln neovim psutils shasum sqlite sudo tar touch which xz`
 
+### [Windows Terminal](https://github.com/microsoft/terminal)
+
+微軟官方推出的新一代 Terminal，目前還有點 bug，但是應該會是最完整最好用的一款 Terminal 了
+
 ## Windows Subsystem Linux
 
 ### [WSL安裝指南](https://docs.microsoft.com/zh-tw/windows/wsl/install-win10)
