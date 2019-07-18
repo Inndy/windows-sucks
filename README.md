@@ -76,6 +76,15 @@
 - 除非你用 [Arch Linux](https://www.archlinux.org/)，不然 brew 的套件版本一定比較新
 - `brew install nvim tmux`
 
+### 系統剪貼簿
+
+把以下兩行加入你的 `~/.bashrc`　（或你自己的 shell rc）
+
+``` bash
+alias paste="powershell.exe -Command Get-Clipboard"
+alias copy="powershell.exe -Command 'Set-Clipboard([Console]::In.ReadToEnd())'"
+```
+
 ## Windows 系統調整
 
 - 關掉 [Windows Telemetry](https://www.neweggbusiness.com/smartbuyer/windows/should-you-disable-windows-10-telemetry/)
