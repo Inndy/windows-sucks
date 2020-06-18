@@ -20,6 +20,7 @@
 - Windows 內建的 PrtScrn 有夠爛，這工具用起來就像 Mac 的截圖 Command-Shift-3
 - 其他競品
 	- [LightShot](https://app.prntscr.com/)
+	- [Win-Shift-S](https://support.microsoft.com/help/4488540/windows-10-how-to-take-and-annotate-screenshots)
 
 ### [Everything](https://www.voidtools.com/)
 
