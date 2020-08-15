@@ -102,6 +102,10 @@ alias copy="powershell.exe -Command 'Set-Clipboard([Console]::In.ReadToEnd())'"
 - 關掉 [索引服務](https://www.online-tech-tips.com/computer-tips/simple-ways-to-increase-your-computers-performace-turn-off-indexing-on-your-local-drives/)
 	- Everything 不管是建立索引還是搜尋速度都完勝，也不會一直吃效能
 
+## 快捷鍵
+
+[Windows Shortcuts by @moskytw](https://paper.dropbox.com/doc/Windows-Shortcuts-Moskys-Notes-2xHBugmq1xnYtBhhcnHmW)
+
 ## Misc
 
 ### [剪貼簿歷程](https://support.microsoft.com/zh-tw/help/4464215/windows-10-get-help-with-clipboard)
