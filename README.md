@@ -12,6 +12,8 @@
 
 - 把 Spotlight 帶到 Windows 上！
 - 把預設的 HotKey 改成 Ctrl-Alt-Space，因為 Alt-Space 去移動、縮放視窗很好用
+- 其他競品
+	- [Ueli](https://ueli.app/)
 
 > TODO: 附上 Wox 設定檔
 
@@ -34,9 +36,15 @@
 - 老牌軟體，讓你的桌面井然有序，不過要付費
 - 不想付錢可以試試 [Nimi Places](https://www.playpcesor.com/2013/07/nimi-places.html) 或其他替代品
 
+### [Windows Terminal](https://github.com/microsoft/terminal)
+
+微軟官方推出的新一代 Terminal，支援 GPU 加速
+
+> TODO: 改用 Windows Terminal，換掉 WSLTTY
+
 ### [Cmder](https://cmder.net/)
 
-- Windows 最強 Terminal Emulator
+- ~~Windows 最強 Terminal Emulator~~ 我覺得不容易設定
 - 支援 cmd / PowerShell / WSL / cygwin
 - 懶得設定 Cmder 的話可以用 [wsltty](https://github.com/mintty/wsltty)
 - [Cmder 設定檔](cmder_config.xml)
@@ -59,10 +67,6 @@
 - 類似 `brew` 的做法，會把 Windows 軟體包直接拆開，裝在 `%UserProfile%\scoop` 底下
 - `scoop install aria2; scoop config aria2-enabled true`
 - `scoop install ag busybox fd file git gzip jq less ln neovim psutils shasum sqlite sudo tar touch which xz`
-
-### [Windows Terminal](https://github.com/microsoft/terminal)
-
-微軟官方推出的新一代 Terminal，目前還有點 bug，但是應該會是最完整最好用的一款 Terminal 了
 
 ## Windows Subsystem Linux
 
