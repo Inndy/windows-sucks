@@ -90,6 +90,8 @@ alias paste="powershell.exe -Command Get-Clipboard"
 alias copy="powershell.exe -Command 'Set-Clipboard([Console]::In.ReadToEnd())'"
 ```
 
+*Windows 貼上的換行會是 `\r\n`，要 pipe 到其他地方使用可以先 `tr -d \\r`*
+
 ## Windows 系統調整
 
 - 關掉 [Windows Telemetry](https://www.neweggbusiness.com/smartbuyer/windows/should-you-disable-windows-10-telemetry/)
