@@ -83,7 +83,7 @@
 
 ### 系統剪貼簿
 
-把以下兩行加入你的 `~/.bashrc`　（或你自己的 shell rc）
+把以下兩行加入你的 `~/.bashrc` （或你自己的 shell rc）
 
 ``` bash
 alias paste="powershell.exe -Command Get-Clipboard"
