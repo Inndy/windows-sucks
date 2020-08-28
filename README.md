@@ -36,37 +36,38 @@
 - 老牌軟體，讓你的桌面井然有序，不過要付費
 - 不想付錢可以試試 [Nimi Places](https://www.playpcesor.com/2013/07/nimi-places.html) 或其他替代品
 
+## Terminal Emulator
+
 ### [Windows Terminal](https://github.com/microsoft/terminal)
 
-微軟官方推出的新一代 Terminal，支援 GPU 加速
+- 微軟官方推出的新一代 Terminal，支援 GPU 加速
+- 唯一缺點是，把檔案拖拉到 Windows Terminal 視窗內的時候，不會自動轉換成 `/mnt/` 的路徑，但是 WSLTTY 可以
 
-> TODO: 改用 Windows Terminal，換掉 WSLTTY
+設定檔在這： [windows-terminal-settings.json](windows-terminal-settings.json)
+
+我做了一個程式，註冊一個 global hotkey 來切換 Windows Terminal，行為有點像 iTerm2 的 `Toggle All Windows`，
+可以在 [Inndy/TerminalSummoner](https://github.com/Inndy/TerminalSummoner) 找到
+
+### [WSLTTY](https://github.com/mintty/wsltty)
 
 ### [Cmder](https://cmder.net/)
 
 - ~~Windows 最強 Terminal Emulator~~ 我覺得不容易設定
 - 支援 cmd / PowerShell / WSL / cygwin
-- 懶得設定 Cmder 的話可以用 [wsltty](https://github.com/mintty/wsltty)
-- [Cmder 設定檔](cmder_config.xml)
 
-#### HotKey
-
-| 按鍵          | 說明                       |
-| :------------ | :------------------------- |
-| Ctrl-PageUp   | 上一個分頁                 |
-| Ctrl-PageDown | 上一個分頁                 |
-| Ctrl-T        | 新的分頁 (WSL)             |
-| Ctrl-Shift-T  | 新的分頁 (PowerShell)      |
-| Ctrl-Alt-M    | 開啟 / 隱藏 Cmder （全域） |
+## Package Manager
 
 ### [scoop](https://scoop.sh/)
 
-- 以前用 [Chocolatey](https://chocolatey.org/) 經驗不好
-	- 但是 scoop 上面的套件比較少
 - 看到有人推薦 [OneGet](https://github.com/OneGet/oneget)，但是我沒用過
 - 類似 `brew` 的做法，會把 Windows 軟體包直接拆開，裝在 `%UserProfile%\scoop` 底下
 - `scoop install aria2; scoop config aria2-enabled true`
 - `scoop install ag busybox fd file git gzip jq less ln neovim psutils shasum sqlite sudo tar touch which xz`
+
+### [Chocolatey](https://chocolatey.org/)
+
+- 以前用 Chocolatey 經驗不好，後來也沒有繼續嘗試
+- 套件比 scoop 更多
 
 ## Windows Subsystem Linux
 
