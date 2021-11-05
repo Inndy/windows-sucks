@@ -115,6 +115,7 @@ alias copy="powershell.exe -Command 'Set-Clipboard([Console]::In.ReadToEnd())'"
 
 - Windows 10 新增的剪貼簿歷史紀錄功能
 
-### [MakeWindows10GreatAgain](https://github.com/clong/MakeWindows10GreatAgain)
+### [clong/MakeWindows10GreatAgain](https://github.com/clong/MakeWindows10GreatAgain)
+### [Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 
 - 裡面有很多值得參考的 tweak 跟懶人 script
