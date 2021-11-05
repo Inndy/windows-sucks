@@ -1,6 +1,6 @@
 # Windows 完全求生指南
 
-這份文件的產生是因為我最近工作筆電換成了公司配的 ThinkPad X1 Carbon，所以工作環境從 macOS
+這份文件的產生是因為我最近工作筆電換成了公司配的 ~~ThinkPad X1 Carbon~~ DELL Latitude 5420，所以工作環境從 macOS
 變成了 Windows。作為一個平常工作大量依賴鍵盤與 Commandline 的人， 一定要想辦法打造一個
 舒適的工作環境，想辦法活下去！
 
