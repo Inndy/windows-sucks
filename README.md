@@ -8,6 +8,14 @@
 
 ## 實用工具
 
+### [PowerToys](https://github.com/microsoft/PowerToys)
+
+- 絕對不只是 Toys！
+- PowerToys Run 可以取代 Wox
+- FancyZones 可以快速排列視窗到預先規劃好的區域
+- File Explorer Add-ons 可以讓檔案管理員預覽 Markdown 跟 SVG
+- Keyboard Manager 可以 re-map 鍵盤按鍵
+
 ### [Wox](http://www.wox.one/)
 
 - 把 Spotlight 帶到 Windows 上！
