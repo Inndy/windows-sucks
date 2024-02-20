@@ -119,6 +119,10 @@ alias copy="powershell.exe -Command 'Set-Clipboard([Console]::In.ReadToEnd())'"
 
 ## Misc
 
+### 節省硬碟空間 (WinSxS)
+
+`Dism.exe /Online /Cleanup-Image /StartComponentCleanup /ResetBase`
+
 ### [剪貼簿歷程](https://support.microsoft.com/zh-tw/help/4464215/windows-10-get-help-with-clipboard)
 
 - Windows 10 新增的剪貼簿歷史紀錄功能
