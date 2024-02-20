@@ -16,12 +16,13 @@
 - File Explorer Add-ons 可以讓檔案管理員預覽 Markdown 跟 SVG
 - Keyboard Manager 可以 re-map 鍵盤按鍵
 
-### [Wox](http://www.wox.one/)
+### ~~[Wox](http://www.wox.one/)~~
 
+- 用 PowerToys Run 就好了
 - 把 Spotlight 帶到 Windows 上！
 - 把預設的 HotKey 改成 Ctrl-Alt-Space，因為 Alt-Space 去移動、縮放視窗很好用
 - 其他競品
-	- [Ueli](https://ueli.app/)
+	- ~~[Ueli](https://ueli.app/)~~
 
 > TODO: 附上 Wox 設定檔
 
@@ -39,8 +40,9 @@
 - 裝了之後直接設定開機自動啟動，或是 Run as Service
 - 我自己設定了 HotKey Ctrl-Alt-F
 
-### [Stardock Fences](https://www.stardock.com/products/fences/)
+### ~~[Stardock Fences](https://www.stardock.com/products/fences/)~~
 
+- 反正後來我都把桌面 Icon 關閉
 - 老牌軟體，讓你的桌面井然有序，不過要付費
 - 不想付錢可以試試 [Nimi Places](https://www.playpcesor.com/2013/07/nimi-places.html) 或其他替代品
 
@@ -56,14 +58,18 @@
 我做了一個程式，註冊一個 global hotkey 來切換 Windows Terminal，行為有點像 iTerm2 的 `Toggle All Windows`，
 可以在 [Inndy/TerminalSummoner](https://github.com/Inndy/TerminalSummoner) 找到
 
-### [WSLTTY](https://github.com/mintty/wsltty)
+### ~~[WSLTTY](https://github.com/mintty/wsltty)~~
 
-### [Cmder](https://cmder.net/)
+### ~~[Cmder](https://cmder.net/)~~
 
 - ~~Windows 最強 Terminal Emulator~~ 我覺得不容易設定
 - 支援 cmd / PowerShell / WSL / cygwin
 
 ## Package Manager
+
+### [Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)
+
+- apt-get for Windows
 
 ### [scoop](https://scoop.sh/)
 
@@ -83,12 +89,18 @@
 
 - 我太習慣 Unix 環境跟 Commandline 的工作環境了
 - 現在的 WSL 我覺得已經發展到超過堪用的程度了
+- WSLv2 會用到 Hyper-V，會讓 VMware 跟其他 Hypervisor 超級慢
 
 ### [Linuxbrew](http://linuxbrew.sh/)
 
 - macOS 的第三方套件管理程式 [Homebrew](https://brew.sh/) 也支援 Linux
 - 除非你用 [Arch Linux](https://www.archlinux.org/)，不然 brew 的套件版本一定比較新
 - `brew install nvim tmux`
+
+### WSLv1 修正 bad address error
+
+- `grep -F .note.ABI-tag -r . -l | xargs -n1 sh -c 'p=$(stat -c %a "$1"); chmod +w "$1"; strip --remove-section=.note.ABI-tag "$1"; chmod $p "$1"' --`
+- `/lib64/ld-linux-x86-64.so.2 /path/to/your/bad/executable`
 
 ### 系統剪貼簿
 
